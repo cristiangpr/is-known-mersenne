@@ -10,19 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/cristiangpr/is-known-mersenne.git"
   },
-  "author": "Cristian Perez Ramirez",
+  "author": "Cristian Perez Ramirez cristiangp777@gmail.com",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/cristiangpr/is-known-mersenne/issues"
   },
   "homepage": "https://github.com/cristiangpr/is-known-mersenne#readme",
-  "dependencies": {
-    "chai": "^4.2.0",
+  "devDependencies": {
     "mocha": "^8.1.3"
-  },
-  "module": "big.mjs",
-  "browser": {
-    "./big.js": "./big.browser.js",
-    "./big.mjs": "./big.browser.mjs"
   }
 }
