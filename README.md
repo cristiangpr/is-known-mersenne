@@ -2,6 +2,8 @@
 
 Quickly determines if a number is a known mersenne prime. Returns boolean value
 
+This package is also served through OpenBits (http://openbits.world)
+
 
 ### Prerequisites
 
