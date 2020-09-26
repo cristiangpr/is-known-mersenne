@@ -53,15 +53,25 @@ const mersennePrimes = [
 
 ]
 
-const isKnownMersenne = (num) => {
+const isKnownMersenne = (n) => {
+
     for(let i=0; i <=mersennePrimes.length; i++)
-    if (num == mersennePrimes[i]) {
+    if (n == mersennePrimes[i]) {
     return true
-    } else if (num < mersennePrimes[i +1]) {
+    } else if (n < mersennePrimes[i +1]) {
         return false
     }
     return false
     
 };
 
-module.exports = {isKnownMersenne}
+module.exports = function(n) {
+    if (typeof n !== 'bigint') {
+      throw new TypeError('Expected a BigInt. Add a n character after number');
+    }
+    if (n <= 0n) {
+      throw new Error('The given number must be a positive integer');
+    }
+ 
+    return isKnownMersenne(n);
+  }
