@@ -19,10 +19,12 @@ Node 10.4 or later
 npm install is-known-mersenne
 ```
 
-Usage
+### Usage
+
 Input must be in BigInt format. Simply add n after all integers.
 ```
 const isKnownMersenne = require('is-known-mersenne');
+
 isKnownMersenne(7n); => true
 isKnownMersenne(2n**2n-1n) => true
 isKnownMersenne(10n); => false
