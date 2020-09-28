@@ -2,7 +2,7 @@
 
 Quickly determines if a number is a known mersenne prime. Returns boolean value
 
-This package is also served through OpenBits (http://openbits.world)
+![openbits logo](https://lh3.googleusercontent.com/z3ETaQ_Xc_uFNIzCCabpoYbl67eUXUSIUWIA1w4dl-RwYz3ZzFGyzBYdui9ZltF9iJNcJxNYPHZpthsJjm1q9GX9rV7SH2s2Kq_BV7zOQTQS70-inB1yvsvQxuvOuDl0E8pLcjWk) This package is also served through OpenBits (http://openbits.world)
 
 
 ### Prerequisites
